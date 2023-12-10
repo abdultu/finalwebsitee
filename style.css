@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300;1,600&display=swap');
+
+body{
+	border-top: 10px solid #014b62;
+	border-bottom: 10px solid #014b62;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+canvas{
+	border: 1px solid #d3d3d3;
+	background-color: transparent;
+	background-image: url(images/tree.jpg);
+}
+
+
+
+
+color: lightgray;
+}
+
+.home-hero h1{
+	font-family: 'Dancing Script',cursive;
+	color: white;
+	font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+}
+.home-photo{
+	float: right;
+	max-width: 50%;
+	height: auto;
+	margin: 50px 0 10px 20px;
+}
+footer{
+	clear: both;
+}
+
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	
+}
+main p{
+	font-size: 16px;
+	line-height: 1.5;
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+h2{
+	color: brown;
+}
+hr{
+	border: 1px; 
+	margin: 20px 0;
+
+}
+
+ul li{
+	padding: 5px 0;
+}
+li{
+	color: black;
+}
+
+a:link{
+	color: blue;
+}
+a:visited{
+	color: blue;
+}
+a:hover{
+	color: black;
+}
+a:active{
+	color: black;
+}
+
+/* vertical navigation bar */
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	margin-right: 20px;
+
+}
+nav a{
+
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: white;
+}
+nav a:visited{
+
+	color: white;
+}
+nav a:hover{
+	color: white;
+}
+nav a:active{
+	color: black;
+}
+h1{
+	text-align: center;
+	font-size: 4em;
+}
+nav{
+	
+	
+	
+	padding: 5px;
+}
+
+/* css for tables */
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+@media only screen and (max-width: 768){
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+.logo{
+	margin: 0 auto;
+	display:block;
+	max-width: 400px;
+}
+nav{
+   background-color: black;
+   
+}
+
+
+i.fa{
+   font-size: 3em;
+   color: black;
+}
+
+i.fa:hover{
+   color: white;
+}
+h4{
+	color: white;
+	background-color: blue;
+	padding: 4px;
+}
+.home-hero{
+   background-image: url(images/team.jpg);
+   height: 400px;
+   background-size: 1200px;
+   background-position: center;
+   color: black;
+   padding: 10px 10px 10px 20px;
+   text-shadow: 0px 0px 0 #7A7A7A;
+}
+
+.footer-bottom{
+	background-color: black;
+}
+.footer-bottom{
+	background-color: black;
+	max-width: 1000px;
+}
+main{
+	width: narrow;
+}
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+.footer {
+    background-color: #2465A8; 
+    color: #fff; 
+    padding: 20px; 
+}
+
+.footer a {
+    color: #fff; 
+}
+
+.footer-icons {
+    font-size: 24px;
+    margin: 10px;
+}
